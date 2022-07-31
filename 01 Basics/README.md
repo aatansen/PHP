@@ -61,5 +61,32 @@ echo "\n";
 ```
 > Best practise is `"Hello {$name}";`
 
+php variable is mutable because it can be change, here `$task` is `"Read"` and then changed to `"Write"`:
 
+```php
+$task = "Read";
+echo $task;
+echo "\n";
+$task = "Write";
+echo $task;
+echo "\n";
+```
+
+Define and Constant in PHP ,  `we can't change the value of constant` :
+
+```php
+define("PI", 3.1416);
+echo "Value of PI is ".PI;
+echo "\n";
+echo constant("PI");
+```
+
+Another way to print define constant in php tricky way:
+
+```php
+define("PI", 3.1416);
+$constant = "constant";
+echo "Value of PI = {$constant('PI')}";
+
+```
 </details>
