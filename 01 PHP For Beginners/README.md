@@ -9,6 +9,8 @@
     - [Linux / Mac](#linux--mac)
     - [Windows](#windows)
     - [MySQL Interface](#mysql-interface)
+  - [The Fundamentals](#the-fundamentals)
+    - [First PHP Tag](#first-php-tag)
 
 ## Environment Setup
 
@@ -28,3 +30,20 @@
 
 - [Table Plus](https://tableplus.com/)
 - [phpMyAdmin](https://www.phpmyadmin.net/)
+
+[⬆️ Go to Context](#context)
+
+## The Fundamentals
+
+### First PHP Tag
+
+- Create `index.html`
+- Run it using this command
+
+  ```sh
+  php -S localhost:8888
+  ```
+
+- For php we will rename `index.html` to [index.php](/01%20PHP%20For%20Beginners/01%20The%20Fundamentals/index.php)
+
+[⬆️ Go to Context](#context)
